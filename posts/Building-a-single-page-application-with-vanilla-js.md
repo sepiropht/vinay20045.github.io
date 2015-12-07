@@ -8,13 +8,13 @@ A lot of good folks have talked about this in the past. Some of my favorite read
 **Design**   
 Prior to refactoring my website was a typical blog written in PHP. Every page request used to do a round trip to a server, it had a management console etc. During refactoring some of my considerations were...
 - No page loads for every post i.e. it should be an SPA
-- Posts were to be written using markdown syntax.
+- Posts to be written using markdown syntax.
 - The blog should be written only in HTML+CSS+JS
 - Hosting to be done on github pages or AWS S3
 - It had to be mobile friendly
 
 with these things in mind, the high level design of the blog looks like this...   
-![askvinay.com SPA design]()
+![askvinay.com SPA design](uploads/vanilla-js-spa-design.png)
 
 **Basic Structure**   
 One of the primary things that you should be looking at while developing any application is the origanization of code. This includes everything right from your folder structure and naming conventions to declarations and definitions. A lot of developers I've seen argue over 2 line breaks vs 1 line break but are ok with having business logic in the views or templates. Anyways, once you do this for one project, it sort of acts like a boilerplate and will be very easy to replicate and extend for your future projects. 
