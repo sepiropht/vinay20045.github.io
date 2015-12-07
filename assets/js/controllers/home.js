@@ -33,3 +33,10 @@ controllers.home_page_error = function(data, params){
         data
     );
 };
+
+controllers.show_loader = function(element) {
+    utils.render(
+        element,
+        templates.loader()
+    );
+}

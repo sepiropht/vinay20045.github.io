@@ -57,7 +57,7 @@ var utils = (function(){
             api_stub = api_stub || '';
             callback_params = callback_params || {};
 
-            //controllers.show_loader();
+            controllers.show_loader('page-content');
 
             var url = config.api_server + api_stub;
 
