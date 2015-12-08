@@ -1,4 +1,4 @@
-function home(data, params){
+views.home = function(data, params){
     var api_stub = 'posts/index.json';
     
     utils.request(
@@ -6,4 +6,4 @@ function home(data, params){
         'home_page',
         'home_page_error'
     );
-}
+};

@@ -1,4 +1,4 @@
-function all_posts(data, params){
+views.all_posts = function(data, params){
     var api_stub = 'posts/index.json';
     
     utils.request(
@@ -6,4 +6,4 @@ function all_posts(data, params){
         'show_all_posts',
         'show_all_posts_error'
     );
-}
+};

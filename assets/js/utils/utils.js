@@ -36,7 +36,7 @@ var utils = (function(){
 
             //fire away...
             if(function_to_invoke){
-                window[function_to_invoke](data, params);
+                views[function_to_invoke](data, params);
             }
         },
 
