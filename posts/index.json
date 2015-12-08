@@ -3,7 +3,7 @@
         "post": "Building-a-single-page-application-with-vanilla-js",
         "tags": ["No framework SPA", "SPA using plain javascript", "hash based routing"],
         "added_on": "7 December, 2015",
-        "snippet": "Often times I've come across _this framework vs that framework_ debate. Many times as an observer, some times as a participant and occasionally as the person who _cough_  started the debate _cough_. Most frequent arguments in these debates are around the _comparitively easy ways to do stuff_ or the _lesser code needs to be written_ points. What I don't see people talking about is writing vanilla js and structuring your project better instead of using a framework...."
+        "snippet": "Often times I've come across this framework vs that framework debate. Many times as an observer, some times as a participant and occasionally as the person who *cough* started the debate *cough*. Most frequent arguments in these debates are around the comparitively easy ways to do stuff_ or the lesser code needs to be written points. What I don't see people talking about is writing vanilla js and structuring your project better instead of using a framework...."
     },
     {
         "post": "What-does-it-mean-to-be-an-Engineering-Manager",
