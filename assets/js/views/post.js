@@ -1,4 +1,4 @@
-function post(data, params){
+views.post = function(data, params){
     var api_stub = 'posts/' + params[0] + '.md';
     
     utils.request(

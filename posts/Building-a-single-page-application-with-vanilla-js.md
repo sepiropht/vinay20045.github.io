@@ -54,7 +54,7 @@ router: function(route, data){
 
     //fire away...
     if(function_to_invoke){
-        window[function_to_invoke](data, params);
+        views[function_to_invoke](data, params);
     }
 }
 ```
@@ -155,7 +155,7 @@ Views are the functions that are directly exposed to user. i.e. they are invoked
 
 The view for all posts page looks like this. It simply passes the request to load show_posts controller after making an ajax call to get the posts index file.
 ```
-function all_posts(data, params){
+views.all_posts = function(data, params){
     var api_stub = 'posts/index.json';
     
     utils.request(
@@ -163,7 +163,7 @@ function all_posts(data, params){
         'show_all_posts',
         'show_all_posts_error'
     );
-}
+};
 ```
 
 **Making API Requests**   
