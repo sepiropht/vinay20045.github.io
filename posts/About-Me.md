@@ -21,7 +21,7 @@ I am married to my sweet heart [Poornima][5], whom I'd been seeing from my colle
 The best and the fastest way to reach me is by sending a mail to <vinay@askvinay.com>. I do reply to all mails but I might not be able to revert immediately on specific requests for scripts or support.
 
 [0]: https://www.linkedin.com/in/vinay20045 "Linkedin Profile"
-[1]: http://www.secretangel.in/ "Secret Angel Custom Clothing"
+[1]: http://www.int.ai/ "int.ai"
 [2]: https://www.commonfloor.com/ "CF"
 [3]: http://www.flipkart.com/ "FlipKart"
 [4]: https://www.practo.com/ "Practo"
