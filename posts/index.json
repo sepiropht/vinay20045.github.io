@@ -3,14 +3,14 @@
         "post": "The real case for AI powered bots",
         "tags": ["Bots", "Artificial Intelligence", "Product Design", "User Experience"],
         "added_on": "27 September, 2016",
-        "snippet": "Conversational User Interfaces (CUIs) backed by machine learning algorithms with a sprinkling of Natural Language Processing (NLP) also known famously as bots are all the rage these days. Every app wants to be one. Every developer aspires to write one. Will every user be happy to use one? more importantly, <b>will YOUR user be happy to use one?</b> Now, that’s the 1,000,000$ question....",
+        "snippet": "Conversational User Interfaces (CUIs) backed by machine learning algorithms with a sprinkling of Natural Language Processing (NLP) also known famously as bots are all the rage these days. Every app wants to be one. Every developer aspires to write one. Will every user be happy to use one? more importantly, <b>will YOUR user be happy to use one?</b> Now, that's the 1,000,000$ question....",
         "external_link": "https://blog.16metrics.com/the-real-case-for-ai-powered-bots-57b3dbba9747"
     },
     {
         "post": "Building-a-single-page-application-with-vanilla-js",
         "tags": ["No framework SPA", "SPA using plain javascript", "hash based routing"],
         "added_on": "7 December, 2015",
-        "snippet": "Often times I've come across this framework vs that framework debate. Many times as an observer, some times as a participant and occasionally as the person who **cough** started the debate <b>cough</b>. Most frequent arguments in these debates are around the comparitively easy ways to do stuff_ or the lesser code needs to be written points. What I don't see people talking about is writing vanilla js and structuring your project better instead of using a framework...."
+        "snippet": "Often times I've come across this framework vs that framework debate. Many times as an observer, some times as a participant and occasionally as the person who <b>cough</b> started the debate <b>cough</b>. Most frequent arguments in these debates are around the comparitively easy ways to do stuff_ or the lesser code needs to be written points. What I don't see people talking about is writing vanilla js and structuring your project better instead of using a framework...."
     },
     {
         "post": "What-does-it-mean-to-be-an-Engineering-Manager",
