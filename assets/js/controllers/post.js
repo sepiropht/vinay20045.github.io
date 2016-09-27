@@ -23,7 +23,7 @@ controllers.show_all_posts = function(data, params){
     for (var i = 0; i < temp; i++){
         var post = all_posts[i];
         var item = {
-            'link': '#post?'+post.post,
+            'link' = utils.get_link(post),
             'title': post.post.replace(/-/g, ' '),
             'published_on': post.added_on,
             'tags': post.tags.join(', ')

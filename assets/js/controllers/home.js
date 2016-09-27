@@ -6,7 +6,7 @@ controllers.home_page = function(data, params){
     for (var i = 0; i < posts_to_show; i++){
         var post = all_posts[i];
         var item = {
-            'link': '#post?'+post.post,
+            'link': utils.get_link(post),
             'title': post.post.replace(/-/g, ' '),
             'snippet': post.snippet,
             'published_on': post.added_on,

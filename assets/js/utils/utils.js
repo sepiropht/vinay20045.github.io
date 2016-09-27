@@ -81,6 +81,14 @@ var utils = (function(){
             //other methods can be implemented here
             x.open('GET', url, true);
             x.send();
+        },
+
+        get_link: function(post){
+            var link = '#post?'+post.post;
+            if(post.external_link){
+                link = external_link;
+            }
+            return link;
         }
     }
 })();
