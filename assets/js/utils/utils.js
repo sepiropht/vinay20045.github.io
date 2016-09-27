@@ -86,7 +86,7 @@ var utils = (function(){
         get_link: function(post){
             var link = '#post?'+post.post;
             if(post.external_link){
-                link = external_link;
+                link = post.external_link;
             }
             return link;
         }
