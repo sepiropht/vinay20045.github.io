@@ -12,7 +12,7 @@ You say that you love me too..."_
 \-\-   
 English translation of Turkish poem **Korkuyorum**
 
-I am [Vinay Kumar NP][0]. I am a passionate techie and love the kick that building stuff gives. This is where I express my take on things. I currently reside in Bangalore, India. I started out as a student entrepreneur. I architect web apps, write code and love food.
+I am [Vinay Kumar NP][0]. I am a passionate techie and love the kick that building stuff gives. This is where I express my take on things. I come from Bangalore, India but currently residing in Santiago, Chile. I started out as a student entrepreneur. I architect web apps, write code and love food.
 
 I am currently working on a [startup][1] of my own. I have previously worked in various engineering leadership positions at [CommonFloor][2], [FlipKart][3] and [Practo][4]. I also work with several startups as a technical consultant.
 
