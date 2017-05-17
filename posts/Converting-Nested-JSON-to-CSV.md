@@ -69,12 +69,12 @@ I've visualized this structure as a tree and then the key and value is decided a
 **Key**: This is the concatenation of all parent node names with an '_' as separator. In case of Arrays, the immediate parent of the value is the index.
 
 Taking the Apple object as example the tree can be visualized as...
-JSON object as a tree
-Therefore, the key/value pairs become
-Fruit_Name -> Apple
-Fruit_Major Producers_0 -> China
-and so on... 
-The same thing is done for all Fruit objects. Here the array indices are ignored. Otherwise it would be Fruit_0_Name -> Apple as against Fruit_Name -> Apple
+![JSON object as a tree](uploads/converting-json-to-csv-1.png)   
+
+Therefore, the key/value pairs become...   
+Fruit_Name -> Apple   
+Fruit_Major Producers_0 -> China   
+and so on. The same thing is done for all Fruit objects. Here the array indices are ignored. Otherwise it would be Fruit_0_Name -> Apple as against Fruit_Name -> Apple
 
 After this exercise we will be left with a much flatter set of the required key/value pairs derived from the original JSON object. Same thing has to be done for all the objects in the original data to obtain reduced data.
 
