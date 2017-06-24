@@ -1,8 +1,8 @@
 [
     {
-        "post": "Procedural vs functionnal programming",
-        "tags": ["refactor" "functionnal programming", "react"],
+        "post": "Procedural-vs-functionnal-programming",
+        "tags": ["refactor", "functionnal programming", "react"],
         "added_on": "10 March, 2017",
         "snippet": "What the differene between procedural and functionnal code in this little ..."
-    },
+    }
 ]

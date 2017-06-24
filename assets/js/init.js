@@ -8,6 +8,7 @@ window.onload = function() {
 
   //register router
   window.addEventListener("hashchange", function() {
+    debugger;
     utils.router();
   });
 
