@@ -6,7 +6,7 @@ What the difference between procedural and functionnal code ? i will try to expl
 
 # Pick a game in vanilla js
 
-Today we gonna transform [this game](https://web.archive.org/web/20160506160048/http://jsfiddle.net/Tiro/zG3hV/3) from vanilla js to react. The mission is double :
+Today we gonna transform [this game](https://codepen.io/sepiropht-1474665215/project/editor/ZjOkze/#0) from vanilla js to react. The mission is double :
 
 1. Understand legacy code write by others (happens often, this skills must be develop)
 2. Learn and pratice react for other thing that a simple todo (you can pick other front-end lib like : vue, angular or even mithril !!)
