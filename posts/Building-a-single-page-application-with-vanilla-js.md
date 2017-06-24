@@ -6,7 +6,7 @@ Often times I've come across _this framework vs that framework_ debate. Many tim
 A lot of good folks have talked about this in the past. Some of my favorite reads are [zero framework manifesto][1] and [Look ma, no frameworks][2]. Many of these frameworks have a wonderful way of marketing themselves by presenting their top features or percieved benefits of usage on their websites or through developer's blogs, however, I don't see as many folks showing ways of building SPA with vanilla js. I therefore decided to refactor my personal website as a SPA without using any framework. I hope that this post will serve as a good first step when you are building an app on your own without using any frameworks. All code referenced here is available at [vinay20045.github.io repo][3] and [this website][4] itself acts as a live demo.
 
 **Design**   
-Prior to refactoring my website was a typical blog written in PHP. Every page request used to do a round trip to a server for all html content and assets, it had a management console etc. During refactoring some of my considerations were...
+Prior to refactoring my website was a typical blog written in PHP. Every page request used to do a round trip to a server for all html content and src, it had a management console etc. During refactoring some of my considerations were...
 - No page loads for every post i.e. it should be an SPA
 - Posts to be written using markdown syntax.
 - The blog should be written only in HTML+CSS+JS
@@ -21,7 +21,7 @@ One of the primary things that you should be looking at while developing any app
 
 The basic structure of the blog application looks like this...
 ```
-|-- assets
+|-- src
 |   |-- css <-- All site styles go here
 |   |-- images <-- All images used in the templates or page shell go here
 |   `-- js
@@ -33,7 +33,7 @@ The basic structure of the blog application looks like this...
 |       `-- views <-- Views exposed to the user
 |-- index.html <-- Page shell. Acts like a container. Actual content is populated based on route
 |-- posts <-- All posts markdown files go here
-`-- uploads <-- All assets used in posts go here
+`-- uploads <-- All src used in posts go here
 ```
 
 **Routing**   
@@ -136,7 +136,7 @@ templates.hello_text = function(data){
     var content = `
         <div id="hello_text">
             <h2>Hello...</h2>
-            <img src="assets/images/Vinay.jpg" align="left" style="width:70px;">
+            <img src="src/images/Vinay.jpg" align="left" style="width:70px;">
             <p>
                 Thank you for visiting my blog. I am Vinay Kumar NP. I am a passionate techie...
             </p>
@@ -217,4 +217,4 @@ Vinay Kumar NP
 [2]: http://codeofrob.com/entries/look-ma,-no-frameworks.html "by Rob Ashton"
 [3]: https://github.com/vinay20045/vinay20045.github.io "My website's repo"
 [4]: http://askvinay.com/ "askVinay.com"
-[5]: https://github.com/vinay20045/vinay20045.github.io/blob/master/assets/js/utils/utils.js "Utils lib"
+[5]: https://github.com/vinay20045/vinay20045.github.io/blob/master/src/js/utils/utils.js "Utils lib"
