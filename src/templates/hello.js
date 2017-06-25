@@ -1,4 +1,4 @@
-templates.hello_text = function(data) {
+export default function(data) {
   var content = `
         <div id="hello_text">
             <h2>Hello...</h2>
@@ -10,4 +10,4 @@ templates.hello_text = function(data) {
     `;
 
   return content;
-};
+}

@@ -1,4 +1,4 @@
-templates.recent_posts = function(data) {
+const recent_posts = function(data) {
   var content = `
         <div id="recent_posts" class="">
             <h2>Recent Posts</h2>
@@ -25,12 +25,12 @@ templates.recent_posts = function(data) {
   return content;
 };
 
-templates.all_posts = function(data) {
+const all_posts = function(data) {
   var content = `
         <div id="all_posts" class="">
             <h2>All Posts</h2>
     `;
-  no_of_posts = data.length;
+  const no_of_posts = data.length;
   for (var i = 0; i < no_of_posts; i++) {
     var post = data[i];
     content = content +
@@ -52,4 +52,8 @@ templates.all_posts = function(data) {
   content = content + "</div>";
 
   return content;
+};
+export default {
+  all_posts,
+  recent_posts
 };

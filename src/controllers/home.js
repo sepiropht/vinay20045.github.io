@@ -1,4 +1,6 @@
-controllers.home_page = function(data, params) {
+import utils from "../utils/utils";
+import templates from "../templates/index";
+const home_page = function(data, params) {
   var all_posts = JSON.parse(data);
 
   var posts_to_show = 1;
@@ -6,7 +8,7 @@ controllers.home_page = function(data, params) {
   for (var i = 0; i < posts_to_show; i++) {
     var post = all_posts[i];
     var item = {
-      link: utils.get_link(post),
+      link: utils().get_link(post),
       title: post.post.replace(/-/g, " "),
       snippet: post.snippet,
       published_on: post.added_on
@@ -21,13 +23,17 @@ controllers.home_page = function(data, params) {
   var hello_text = templates.hello_text();
 
   var final_content = hello_text + recent_posts;
-  utils.render("page-content", final_content);
+  utils().render("page-content", final_content);
 };
 
-controllers.home_page_error = function(data, params) {
-  utils.render("page-content", data);
+const home_page_error = function(data, params) {
+  utils().render("page-content", data);
 };
-
-controllers.show_loader = function(element) {
-  utils.render(element, templates.loader());
+const show_loader = function(element) {
+  utils().render(element, templates.loader());
+};
+export default {
+  show_loader,
+  home_page,
+  home_page_error
 };

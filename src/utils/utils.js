@@ -1,4 +1,8 @@
-var utils = (function() {
+import views from "../views/index";
+import controllers from "../controllers/index";
+import config from "../config";
+
+export default function utils() {
   var extract_params = function(params_string) {
     var params = {};
     var raw_params = params_string.split("&");
@@ -87,4 +91,4 @@ var utils = (function() {
       return link;
     }
   };
-})();
+}

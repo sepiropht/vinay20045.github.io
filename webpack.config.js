@@ -1,20 +1,17 @@
-var HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin"); //installed via npm
+const webpack = require("webpack"); //to access built-in plugins
+const path = require("path");
 
-module.exports = {
-  entry: {
-    app: "./src/index.js"
-  },
-
-  devtool: "inline-source-map",
-
+const config = {
+  entry: "./src/index.js",
   output: {
-    path: "/dist",
-    filename: "[name].bundle.js"
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js"
   },
-
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: "Output Management"
-    })
-  ]
+  module: {
+    rules: [{ test: /\.txt$/, use: "raw-loader" }]
+  },
+  plugins: [new HtmlWebpackPlugin({ template: "./index.html" })]
 };
+
+module.exports = config;
