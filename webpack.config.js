@@ -3,6 +3,7 @@ const webpack = require("webpack"); //to access built-in plugins
 const path = require("path");
 
 const config = {
+  devtool: "source-map",
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),

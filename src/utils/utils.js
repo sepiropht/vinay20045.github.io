@@ -1,7 +1,7 @@
 import views from "../views/index";
 import controllers from "../controllers/index";
 import config from "../config";
-
+import ghm from "./showdown-ghm";
 export default function utils() {
   var extract_params = function(params_string) {
     var params = {};
@@ -46,10 +46,7 @@ export default function utils() {
       if (!convert_markdown) {
         document.getElementById(element_id).innerHTML = content;
       } else {
-        var converter = new showdown.Converter();
-        document.getElementById(element_id).innerHTML = converter.makeHtml(
-          content
-        );
+        document.getElementById(element_id).innerHTML = ghm.parse(content);
       }
       document.getElementById(element_id).scrollIntoView();
     },
