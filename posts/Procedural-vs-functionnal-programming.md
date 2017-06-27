@@ -1,10 +1,10 @@
----
-title: "Let's do a game!"
----
 
-What the difference between procedural and functionnal code ? i will try to explain that.
+
+
 
 # Pick a game in vanilla js
+
+What the difference between procedural and functionnal code ? i will try to explain that.
 
 Today we gonna transform [this game](https://codepen.io/sepiropht-1474665215/project/editor/ZjOkze/#0) from vanilla js to react. The mission is double :
 
